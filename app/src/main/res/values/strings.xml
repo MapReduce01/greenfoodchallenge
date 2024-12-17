@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">MindfulMealPlanner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="initial_screen_username">Name</string>
+    <string name="initial_screen_username_hint">Enter your username</string>
+    <string name="initial_screen_gender">Gender</string>
+    <string name="initial_screen_gender_male">Male</string>
+    <string name="initial_screen_gender_female">Female</string>
+    <string name="initial_screen_next">next</string>
+    <string name="first_log_in_button">submit</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="current_co2e">Current Plan Produces\nApprox. %1$s Tonnes CO2e Yearly</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="km_wasted">You can drive %1$skm with that amount of CO2</string>
+    <string name="amount_gram">%1$dg</string>
+
+    <string name="about_description">
+        \t\tFood’s carbon footprint, or footprint, is the greenhouse gas emissions produced by growing, rearing, farming, processing, transporting, storing, cooking and disposing of the food you eat.\n\n
+        \t\tIn the US, each household produces 48 tons of greenhouse gases. Transport, housing and food have the three largest carbon footprints. Food produces about 8 tons of emissions per household, or about 17% of the total. Worldwide, new reports suggest that livestock agriculture produces around a half of all man-made emissions.\n\n
+        \t\tChanging the foods that you eat can have a big impact on your carbon footprint. And reduce pollution, preserve the environment and slow global warming. Many of these changes will also save you money, improve your health and even keep you fit! Have a browse of How You Can Fight Climate Change for more ideas on taking action to save our beautiful planet.</string>
+    <string name="let_us_know">Let us know something about you</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">share</string>
+
+    <string name="greeting_user">Greetings %1$s!</string>
+    <string name="total_pledge_amount">Total pledge amount: %1$s</string>
+    <string name="average_co2e_saved_per_person">Average CO2e saved per person: %1$s</string>
+    <string name="pledge_relevant_info">Equivalent to %1$s</string>
+    <string name="total_number_pledges">Pledges made: %1$d</string>
+    <string-array name="gender_array">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string name="title_activity_user_account">UserAccountActivity</string>
+    <string name="skip_the_tutorial"><u>Skip the tutorial</u></string>
+    <string name="skip">skip</string>
+    <string name="before_we_begin_let_s_go_over_some_features">Before we begin, let\'s go quickly over some features</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="pledge">Pledge</string>
+    <string name="what_meal_plan_fits_you_the_best">What meal plan fits you the best?</string>
+    <string name="meal_tracker">Meal Tracker</string>
+    <string name="profile">Profile</string>
+    <string name="edit_your_profile_picture_and_more">Edit your profile picture and more!</string>
+    <string name="add_browse_and_discover_different_green_meals">Add, Browse and Discover different green meals!</string>
+    <string name="submit_a_saving_pledge_and_view_other_pledgers">Submit a saving pledge and view other pledgers!</string>
+    <string name="view_improve_and_contrast_plans">View, Improve, and Contrast Plans!</string>
+    <string name="ready_to_go_green">Ready To Go Green?</string>
+    <string name="i_was_born_ready">I was born ready</string>
+    <string name="submit">Submit</string>
+    <string name="add_a_restaurant">Add a restaurant...</string>
+    <string name="description">Description</string>
+    <string name="say_something_about_the_meal">Say something about the meal...</string>
+    <string name="add_a_meal_name">Add a meal name...</string>
+
+    <string-array name="preset_names">
+        <item>Meat Lover</item>
+        <item>Heavy Veggie</item>
+        <item>Average Joe</item>
+        <item>None of the above</item>
+    </string-array>
+    <string-array name="preset_descriptions">
+        <item>For people who only eat meat</item>
+        <item>For people that rarely eat meat/vegetarians</item>
+        <item>For people that eat a bit of everything</item>
+        <item>For people with unique diets</item>
+    </string-array>
+    <string-array name="add_photo_options">
+        <item>Select from gallery</item>
+        <item>Take a photo</item>
+    </string-array>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus maximus elit, sed cursus odio efficitur sit amet. Donec maximus sapien sed scelerisque mollis. Nam quis ante sollicitudin diam accumsan pretium. Donec pulvinar neque orci, facilisis consequat tellus auctor id.</string>
+
+    <string-array name="titles_for_about">
+        <item>What is a Foodprint?</item>
+        <item>The Green Food Challenge</item>
+        <item>Working as a Community</item>
+        <item>Greenest City Action Plan</item>
+    </string-array>
+
+    <string-array name="descriptions_about">
+        <item>Food\’s carbon footprint, or footprint, is the greenhouse gas emissions produced by growing, rearing, farming, processing, transporting, storing, cooking and disposing of the food you eat. In the US, each household produces 48 tons of greenhouse gases. Transport, housing and food have the three largest carbon footprints. Food produces about 8 tons of emissions per household, or about 17% of the total. Worldwide, new reports suggest that livestock agriculture produces around a half of all man-made emissions.</item>
+        <item>We wish to raise awareness and promote behaviour change. Through this application, participants will learn how much their diet produces in terms of CO2e. As certain foods require more CO2e to produce than others, users will discover how much CO2e they could save by making dietary adjustments.</item>
+        <item>Over the course of the challenge, participants will track their Green Meals. They will be able to see how many tonnes of CO2e they save as a community, as well as share meals and restaurants that offer low carbon meals. By incentivizing these meals, it is hoped that participants learn to sustainably change their eating habits towards a lighter footprint.</item>
+        <item>Vancouver has spearheaded the Greenest City Action Plan since 2011, with the goal of becoming the greenest city by 2020. One of the goals is a lighter footprint, reducing Vancouver\'s carbon footprint by 33% over 2006 levels. Have a browse through our application for ideas of how you can take action to make our beautiful city greener!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/main_toolbar"
+            layout="@layout/component_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/main_bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bottomNavGrey"
+            app:labelVisibilityMode="labeled"
+            android:layout_gravity="bottom"
+            app:menu="@menu/activity_main_drawer"
+            app:itemIconTint="@color/bottom_nav_color_selector"
+            app:itemTextColor="@color/bottom_nav_color_selector"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior">
+        </android.support.design.widget.BottomNavigationView>
+
+        <com.ecoone.mindfulmealplanner.tools.NonSwipeableViewPager
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/main_bottom_nav"
+            app:layout_constraintTop_toBottomOf="@+id/main_toolbar"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!--<include-->
+    <!--layout="@layout/app_bar_main"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <!--<android.support.design.widget.NavigationView-->
+    <!--android:id="@+id/nav_view"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="start"-->
+    <!--android:fitsSystemWindows="true"-->
+    <!--app:headerLayout="@layout/nav_header_main"-->
+    <!--app:menu="@menu/activity_main_drawer" />-->
+
+</android.support.design.widget.CoordinatorLayout>

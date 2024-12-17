@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="about"
+        android:title="About">
+        <intent
+            android:targetPackage="com.ecoone.mindfulmealplanner"
+            android:targetClass="com.ecoone.mindfulmealplanner.profile.settings.AboutPageActivity"/>
+    </Preference>
+
+    <com.ecoone.mindfulmealplanner.profile.settings.LogoutDialogPreference
+        android:key="logout"
+        android:title="Logout" />
+
+    <!--<Preference-->
+        <!--android:key="logout"-->
+        <!--android:title="Log out">-->
+    <!--<intent-->
+        <!--android:targetPackage="com.ecoone.mindfulmealplanner"-->
+        <!--android:targetClass="com.ecoone.mindfulmealplanner.Profile.Setting.LogoutActivity"/>-->
+    <!--</Preference>-->
+
+
+
+    <!--<Preference-->
+        <!--android:key="preference_change_profile_data_category_key"-->
+        <!--android:title="Change Profile data" />-->
+
+
+</PreferenceScreen>
